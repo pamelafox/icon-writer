@@ -7,7 +7,7 @@ authors = [
 description = "A tiny package for writing Mac OS X text-only dock icons"
 readme = "README.md"
 license = { file="LICENSE" }
-requires-python = ">=3.7"
+requires-python = ">=3.11"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -20,7 +20,7 @@ classifiers = [
 
 [tool.black]
 line-length = 100
-target-version = ['py39']
+target-version = ["py311"]
 
 [tool.pytest.ini_options]
 addopts = "-ra --cov"
